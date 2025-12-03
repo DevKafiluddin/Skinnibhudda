@@ -1,0 +1,52 @@
+Assets — suggested filenames (place in /assets/)
+assets/
+  logo.png                 (client logo, transparent PNG)
+  hero-1.jpg               (hero main image - meditation space)
+  hero-1-mobile.jpg        (mobile-friendly hero crop)
+  ayurvedic-bowl.jpg       (intro)
+  ayurvedic-herbs.jpg      (services)
+  spa-relaxation.jpg       (services)
+  healthy-nutrition.jpg    (services)
+  meditation-room.jpg      (services - ambient)
+  group-workshop.jpg       (services)
+  ayurvedic-treatment.jpg  (services)
+  main-meditation.jpg      (about main image - keep existing)
+  yoga-1.jpg               (about extra yoga image)
+  yoga-2.jpg               (about extra yoga image)
+  herbal-remedies.jpg      (programs)
+  oil-therapy.jpg          (programs)
+  nutrition.jpg            (programs)
+  detox.jpg                (programs)
+  workshop.jpg             (programs)
+  consultation.jpg         (programs)
+  map-placeholder.jpg      (contact map placeholder)
+
+README — quick instructions
+
+Install
+
+Put the folder on a static host or open index.html in a browser.
+
+Fonts
+
+The project uses Google Fonts (Playfair Display for headings, Inter for body). If the client supplies custom fonts, replace the <link> in index.html or add @font-face in css/styles.css.
+
+Swap Images
+
+Replace files in /assets/ with the client images. Keep filenames or update src paths in the HTML.
+
+Colors & Typography
+
+Edit :root variables in css/styles.css to adjust the color palette quickly.
+
+WordPress / Elementor
+
+Break HTML into template parts (header.php, footer.php) and copy section HTML into Elementor HTML widgets or theme templates. Keep CSS in style.css.
+
+Accessibility & SEO
+
+Replace alt text with descriptive text for SEO. Use proper meta tags and schema as required.
+
+Export to PDF / Print
+
+For print-ready PDF, convert in InDesign after laying out images at 300 DPI with CMYK color. This front-end is for the web/interactive version.
